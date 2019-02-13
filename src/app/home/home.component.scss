@@ -1,0 +1,80 @@
+.container {
+  max-width: 1200px;
+  padding-top: 50px;
+  margin: auto;
+}
+
+input {
+
+  width: 520px;
+  height: 34px;
+  padding: 8px 24px;
+  font-size: 20px;
+  line-height: 20px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+
+  &:hover, &:focus {
+    outline: none;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+}
+
+.peop, .infra {
+  display: flex;
+}
+
+.card {
+  height: 140px;
+  width: 140px;
+  border: 1px solid #20462e;
+  &:hover, &:focus {
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  background: #eee;
+  .text {
+    padding: 2px 4px;
+  }
+  .moulon {
+    background-image: url('../../assets/moulon.jpg');
+    height: 93px;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+  }
+}
+
+.people {
+  cursor: pointer;
+  height: 80px;
+  width: 80px;
+  margin-right: 16px;
+  border: 2px solid #20462e;
+  border-radius: 50%;
+  background-image: url(https://media.licdn.com/dms/image/C4E03AQEt11QdQR4mqQ/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=Zv4alLBPJdL-6A4wEXF-gFztLtESISNs39T3Qb8b7Yc);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &:hover, &:focus {
+    outline: none;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+
+  &.loic {
+    background-image: url(https://media.licdn.com/dms/image/C4E03AQEt11QdQR4mqQ/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=Zv4alLBPJdL-6A4wEXF-gFztLtESISNs39T3Qb8b7Yc);
+  }
+  &.jon {
+    background-image: url("https://media.licdn.com/dms/image/C5603AQGKLHg-wksi2A/profile-displayphoto-shrink_800_800/0?e=1555545600&v=beta&t=8bARZbOJcEFLmyjA2mXv5QfIBJN0xK4V09S2UhAIyVE");
+  }
+  &.samuel {
+    background-image: url("https://media.licdn.com/dms/image/C4D03AQHSuh4R8clXNg/profile-displayphoto-shrink_800_800/0?e=1555545600&v=beta&t=ZU9uKTVaARw7xOW74xBtUmYBN_67kT0SRZ7PQwQK7s0");
+  }
+}

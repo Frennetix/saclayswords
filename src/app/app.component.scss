@@ -1,0 +1,37 @@
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+}
+
+mat-toolbar {
+  background: white !important;
+  height: 90px;
+  color: #20462e !important;
+}
+.logo {
+  height: 80px;
+}
+
+.profile_name {
+
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left:0;
+  z-index: -999;
+}
+
+.profile_picture {
+  margin-left: 8px;
+  height: 40px;
+  width: 40px;
+  border: 2px solid #20462e;
+  border-radius: 50%;
+  background: url(https://media.licdn.com/dms/image/C4E03AQEt11QdQR4mqQ/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=Zv4alLBPJdL-6A4wEXF-gFztLtESISNs39T3Qb8b7Yc);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}

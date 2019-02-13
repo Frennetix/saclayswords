@@ -1,0 +1,46 @@
+.container {
+  max-width: 1200px;
+  padding-top: 50px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.back {
+  &:before {
+    content: '< ';
+  }
+}
+
+
+.moulon {
+  background-image: url('../../assets/moulon.jpg');
+  height: 250px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.geoposition {
+  background-image: url('https://i.gyazo.com/e15f00242f272d387983fb1a88517184.png');
+  height: 325px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.row {
+  display:flex;
+  font-size: 13px;
+
+  .col1 {
+    width: 800px;
+    margin-right:24px;
+  }
+
+  .col2 {
+    flex: 1;
+    text-align: right;
+  }
+}
